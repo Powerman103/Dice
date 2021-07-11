@@ -3,7 +3,7 @@ from random import randint
 score = 0
 
 i = 0
-while i < 40:
+while i < 25:
     i += 1
     dice_number = randint(1,6)
     number_chosen = int(input("Which number from 1-6 will you guess?"))
