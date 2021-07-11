@@ -10,7 +10,7 @@ while i < 40:
 
     if dice_number == number_chosen:
         print("Good job guessing it right!")
-        score += 10
+        score += 5
         
     else:
         print("The dice number was", dice_number, "you imbicile")
