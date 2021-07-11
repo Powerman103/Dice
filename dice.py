@@ -1,8 +1,12 @@
 from random import randint
 
+print()
 score = 0
 
 i = 0
+
+print("Welcome to guess the dice!")
+    
 while i < 25:
     i += 1
     dice_number = randint(1,6)
@@ -18,6 +22,14 @@ while i < 25:
 
 
 print("Good job on your score of", score, "!")
+
+
+
+
+ 
+
+        
+        
 
 
 
